@@ -24,9 +24,7 @@ function App() {
         setLoading(true);
 
 
-        const response = await fetch(
-          "/technologies.json"
-        );
+        const response = await fetch(`${import.meta.env.BASE_URL}technologies.json`);
 
         if (!response.ok) {
 
