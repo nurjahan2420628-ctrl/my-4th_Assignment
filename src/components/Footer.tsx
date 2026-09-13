@@ -1,3 +1,4 @@
+import logoText from "../assets/logo-text.png";
 function Footer() {
   return (
     <footer
@@ -17,7 +18,7 @@ function Footer() {
             >
               
               <img
-                src="./src/assets/logo-text.png"
+                src={logoText}
                 alt="Dev Stack"
                 className="h-9 w-30 object-contain"
               />

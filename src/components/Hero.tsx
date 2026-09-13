@@ -1,3 +1,4 @@
+import bannerStack from "../assets/banner-stack.png";
 function Hero() {
   return (
     <section
@@ -45,7 +46,7 @@ the stack that fits your next project.
        
 
         <img
-          src="./src/assets/banner-stack.png"
+          src={bannerStack}
           alt="Dev Stack"
           className="w-full max-w-lg object-contain"
         />

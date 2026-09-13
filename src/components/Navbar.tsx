@@ -1,4 +1,6 @@
 import { useState } from "react";
+import logoText from "../assets/logo-text.png";
+import hamburger from "../assets/hamburger.png";
 
 function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -23,7 +25,7 @@ function Navbar() {
         >
           
           <img
-            src="./src/assets/hamburger.png"
+            src={hamburger}
             alt="Menu"
             className="h-6 w-6"
           />
@@ -36,7 +38,7 @@ function Navbar() {
         >
          
           <img
-            src="./src/assets/logo-text.png"
+            src={logoText}
             alt="Dev Stack"
             className="h-20 w-30 object-contain"
           />
