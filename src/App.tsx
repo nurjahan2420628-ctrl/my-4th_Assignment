@@ -52,7 +52,7 @@ function App() {
         setLoading(false);
 
 
-        
+
       }
     };
 
@@ -206,6 +206,8 @@ function App() {
         autoClose={2500}
         closeOnClick
         pauseOnHover
+
+        
       />
     </>
   );
