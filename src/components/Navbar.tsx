@@ -1,6 +1,6 @@
 import { useState } from "react";
 import logoText from "../assets/logo-text.png";
-import hamburger from "../assets/hamburger.png";
+import hamburger from "./src/assets/hamburger.png";
 
 function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
